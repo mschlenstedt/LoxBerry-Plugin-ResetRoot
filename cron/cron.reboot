@@ -1,0 +1,5 @@
+#!/bin/bash
+# Will be executed as user "root".at reboot
+TMPFILE=REPLACELBPDATADIR/newrootpassword
+rm -rf $TMPFILE
+exit 0
